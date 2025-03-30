@@ -1,63 +1,77 @@
-tips.game.1=Brauchen Sie eine gute frühe Nahrungsquelle? Probieren Sie eine §gWilde Karotte§r.
-tips.game.2=Seien Sie vorsichtig im Umgang mit Bossen!
-tips.game.3=Fragen Sie den §gGoblin-Händler§r, der kleine Kerl ist für Sie da.
-tips.game.4=Brauchen Sie eine schnelle Basis? Suchen!.
+pack.name=Better on Bedrock - Ressourcenpaket
+pack.description=Überarbeitetes Minecraft mit einer Riesenmenge an neuem Zeug!
+
+## Game Tips
+tips.game.1=Brauchst Du eine gute, frühe Nahrungsquelle? Probier' mal eine §gWilde Karotte§r.
+tips.game.2=Sei vorsichtig im Umgang mit Bossen!
+tips.game.3=Frag den §gGoblin-Händler§r – der kleine Kerl ist für Dich da.
+tips.game.4=Brauchst Du schnell eine Basis? Schau Dich um!
 tips.game.5=Er schaut immer zu...
-tips.game.6=Schauen Sie sich die erstaunlichen neuen Biome an.
-tips.game.7=Wussten Sie, dass Better on Bedrock vor der Beta die Namen §g'Better Vanilla'§r und §g'Vanilla Enhanced'§r trug?
-tips.game.8=Verwenden Sie ein §eBounty Board§r, um Ihre Beute zu jagen.
-tips.game.9=Stelle einen §gRucksack§r her, um deine Leckereien aufzubewahren!
-tips.game.10=Benutzen Sie §gWaystones§r, um Ihren Platz zu speichern.
+tips.game.6=Schau' Dir die erstaunlichen neuen Biome an.
+tips.game.7=Wusstest Du, dass Better on Bedrock vor der Beta eigentlich §g'Better Vanilla'§r und §g'Vanilla Enhanced'§r hieß?
+tips.game.8=Verwende ein §eBounty Board§r, um Deine Beute zu jagen.
+tips.game.9=Stelle einen §gRucksack§r her, um Deine Leckereien aufzubewahren!
+tips.game.10=Benutze §gWaystones§r, um Deinen Ort speichern.
 tips.game.11=§5Keine wilden Karotten!§r
 tips.game.12=Warum sind sie hier??
 tips.game.13=Stitch: „Jetzt können die Pings enden!“
 
 
-bob.message.welcome=Danke, dass du §7Better auf Bedrock§r gespielt hast! Lesen Sie unbedingt das Infobuch, um zu erfahren, was Sie erwartet und wie manche Dinge funktionieren!
+## Messages
+bob.message.welcome=Danke, dass Du §7Better on Bedrock§r spielst! Lies unbedingt das Infobuch, um zu erfahren, was Dich erwartet und wie manche Dinge funktionieren!
 
 bob.message.dimensionLocation=§6%1§7, §6%2§7, §6%3§7, §rin %4§r
-bob.message.youDiedAt=Sie sind gestorben am: 
+bob.message.youDiedAt=Du bist hier gestorben: 
 bob.message.achievementMade=%1 §rhat das Ziel erreicht: %2§r
 bob.message.ghostnecklace.fail=Leider kannst du die Geisterhalskette im Hardcore-Modus nicht verwenden!
 
-bob.message.ironWithCopperPick=Sie können dieses Erz nur mit einer Spitzhacke aus Kupfer oder besser abbauen!
-bob.message.notEnoughLevels=Du hast nicht genug Level!
+bob.message.ironWithCopperPick=Du kannst dieses Erz nur mit einer Spitzhacke aus Kupfer oder besser abbauen!
+bob.message.notEnoughLevels=Dein Level ist nicht hoch genug!
 bob.message.configUpdated=Addon-Konfiguration aktualisiert!
 bob.message.cannotEnchant=Dieses Werkzeug kann nicht verzaubert werden. Verzauberbare Werkzeuge sind:
 
 bob.message.minerBench.noEnchants=Für diesen Gegenstand sind keine weiteren Verzauberungen verfügbar.
-bob.message.minerBench.noItems=Sie haben nicht die benötigten Artikel!
+bob.message.minerBench.noItems=Du hast nicht die benötigten Gegenstände!
 
 bob.message.staffs.outOfMana=Diesem Stab ging das Mana aus
 bob.message.staffs.notEnoughMana=Nicht genug Mana, um diesen Angriff auszuführen
 
 
+## JSON-UI Toasts
 bob.toast.questComplete=Quest abgeschlossen!
 bob.toast.achievementMade=Ziel erreicht!
-bob.toast.bounty.bountyComplete=Kopfgeld abgeschlossen!
-bob.toast.bounty.claimYourRewards=Fordern Sie Ihre Prämien an!
-bob.toast.advancement.firstDay.name=Erster Tag?
-bob.toast.advancement.firstDay.desc=Spielen Sie besser auf Bedrock!
+
+### Bounty
+bob.toast.bounty.bountyComplete=Auftrag abgeschlossen!
+bob.toast.bounty.claimYourRewards=Hol Dir Deine Belohnung!
+
+### Advancement
+bob.toast.advancement.firstDay.name=Better on Bedrock
+bob.toast.advancement.firstDay.desc=Eine brandneue Welt!
 
 
+## Forms
 gui.goBack=Geh zurück
 bob.gui.nothing=Hier gibt es nichts zu sehen.
 bob.gui.rewards=Belohnungen
-bob.gui.claim=Beanspruchen
-bob.gui.claimAll=Beanspruche alles
-bob.gui.startHunt=Starten Sie die Jagd
+bob.gui.noRewards=Keine Belohnungen...
+bob.gui.progress=Fortschritt: §r§7%1/%2§r
+bob.gui.claim=Nehmen
+bob.gui.claimAll=Alles nehmen
+bob.gui.startHunt=Jagd starten
 bob.gui.startQuest=Quest starten
 
 bob.gui.unlocked=Entsperrt
 bob.gui.available=Verfügbar
-bob.gui.completed=Vollendet
+bob.gui.completed=Abgeschlossen
 
 
+## Wawla
 bob.gui.wawla.displayName=Anzeigename
 bob.gui.wawla.nameTag=Namensschild
 bob.gui.wawla.health=Gesundheit
 bob.gui.wawla.isBaby=Baby
-bob.gui.wawla.tameChance=Zähmender Zufall
+bob.gui.wawla.tameChance=Zähmungs-Chance
 bob.gui.wawla.growth=Wachstum
 bob.gui.wawla.isGrown=Gewachsen
 bob.gui.wawla.honey=Honig
@@ -71,72 +85,104 @@ bob.gui.wawla.tool.pickaxe=Spitzhacke
 bob.gui.wawla.tool.shovel=Schaufel
 
 
+## Achievements
 bob.achievement.1=Benchmarking
+bob.achievement.1.desc=Baue eine Werkbank und platziere sie
 bob.achievement.2=Steinzeit
+bob.achievement.2.desc=Besorge Dir Bruchstein
 bob.achievement.3=Ein Upgrade erhalten
-bob.achievement.4=Ein schäbiger Ort
-bob.achievement.5=Erwerben Sie Hardware
+bob.achievement.3.desc=Eine Spitzhacke aus Stein ist viel besser
+bob.achievement.4=Ein fruchtbarer Ort
+bob.achievement.4.desc=Pflanze etwas an
+bob.achievement.5=Etwas Handfestes
+bob.achievement.5.desc=Hol Dir einen Eisenbarren
 bob.achievement.6=Heißes Zeug
+bob.achievement.6.desc=Fülle einen Eimer mit Lava
 bob.achievement.7=Zieh dich an
-bob.achievement.8=Ist das nicht eine Eisenspitzhacke?
+bob.achievement.7.desc=Stelle eine Eisenrüstung her
+bob.achievement.8=Eisenspitzhacke?
+bob.achievement.8.desc=Vergiss Stein. Baue eine Spitzehacke aus Eisen.
 bob.achievement.9=Eiskübel-Herausforderung
+bob.achievement.9.desc=Schnapp Dir etwas Obsidian
 bob.achievement.10=Diamanten
-bob.achievement.11=Bedecke mich mit Diamanten
+bob.achievement.10.desc=Geh tief in die Minen und hol Dir einen Diamanten
+bob.achievement.11=So schön funkelnd
+bob.achievement.11.desc=Baue eine Diamantrüstung
 bob.achievement.12=Zauberer
+bob.achievement.12.desc=Verzaubere ein Buch
 bob.achievement.13=Zombie-Doktor
-bob.achievement.14=§uEye Spy
-bob.achievement.15=Biene Unser Gast
-bob.achievement.16=Beste Freundin
+bob.achievement.13.desc=Besorge Dir einen goldenen Apfel
+bob.achievement.14=§uEye Spy$r
+bob.achievement.14.desc=Baue ein Enderauge
+bob.achievement.15=Bienenfreund
+bob.achievement.15.desc=Hol Dir eine Glas Honig
+bob.achievement.16=Beste Freunde
+bob.achievement.16.desc=Besorge Dir eine Leine
 
 bob.achievement.17=Keine wilden Karotten
+bob.achievement.17.desc=Schnapp Dir eine wilde Karotte
 bob.achievement.18=Kokosnuss ist eine Riesennuss?
+bob.achievement.18.desc=Eine Kokosnuss ist auch nur eine Nuss.
 bob.achievement.19=Traurige Tage.
+bob.achievement.19.desc=Hol Dir eine Enderträne
 bob.achievement.20=Mehr Reisen
+bob.achievement.20.desc=Wegpunkte sind sehr hilfreich, also keine Scheu.
 bob.achievement.21=Bergmannstraum
+bob.achievement.21.desc=Ein neuer Verzauberer
 bob.achievement.22=Zaubersteine
+bob.achievement.22.desc=Was ist Sternenstaub überhaupt?
 
 
-bob.gui.waystone.main.title=Waystone-Menü
-bob.gui.waystone.main.desc=Um einen weiteren Wegstein hinzuzufügen, ducken Sie sich und interagieren Sie auf dem Wegstein.
+## Waystone
+### Forms
+bob.gui.waystone.main.title=Wegpunkte-Menü
+bob.gui.waystone.main.desc=Um einen weiteren Wegpunkt hinzuzufügen, ducke Dich und interagiere mit dem Wegpunkt.
 
-bob.gui.waystone.add.title=Füge einen Wegstein hinzu
-bob.gui.waystone.add.desc.1=Geben Sie den Namen Ihres Waystone ein.
-bob.gui.waystone.add.desc.2=§7Wenn dieses Feld nicht ausgefüllt ist, lautet der Name des Wegsteins §8„Standard“§r.
-bob.gui.waystone.add.desc.3=§7Wenn ein Name mit einem aktuellen Wegstein übereinstimmt, wird der alte Wegstein überschrieben.
-bob.gui.waystone.add.desc.4=§7Sie haben: §c%1/%2 Wegsteine ​​gesetzt§7.
-bob.gui.waystone.add.desc.5=§7Globale Wegsteine: §a%1/%2§7.
-bob.gui.waystone.add.placeholder=Name des Wegsteins
-bob.gui.waystone.add.globalToggle=Globaler Wegstein
+bob.gui.waystone.add.title=Füge einen Wegpunkt hinzu
+bob.gui.waystone.add.desc.1=Gib den Namen des Wegpunktes ein.
+bob.gui.waystone.add.desc.2=§7Wenn dieses Feld leer bleibt, lautet der Name des Wegpunktes §8„Standard“§r.
+bob.gui.waystone.add.desc.3=§7Wenn es den Namen bereits gibt, wird der alte Wegpunkt überschrieben.
+bob.gui.waystone.add.desc.4=§7Du hast: §c%1/%2 Wegpunkte platziert§7.
+bob.gui.waystone.add.desc.5=§7Globale Wegpunkte: §a%1/%2§7.
+bob.gui.waystone.add.placeholder=Name des Wegpunkts
+bob.gui.waystone.add.globalToggle=Globaler Wegpunkt
 
-bob.gui.waystone.info.title=Wegstein: §6%1
-bob.gui.waystone.info.desc.1=Du bist dabei, dich zu diesem Wegstein zu teleportieren.
-bob.gui.waystone.info.desc.2=Das Teleportieren zu diesem Wegstein erfordert §e%1 XP-Level§r.
-bob.gui.waystone.info.desc.3=Wenn Sie sich über Dimensionen hinweg teleportieren, kostet dies §e%1 XP-Level§r.
-bob.gui.waystone.info.teleport=Teleportiere dich zu diesem Wegstein
-bob.gui.waystone.info.remove=Entferne diesen Wegstein
-bob.message.waystone.added=Waystone hinzugefügt!
-bob.message.waystone.removed=Wegstein entfernt.
+bob.gui.waystone.info.title=Wegpunkt: §6%1
+bob.gui.waystone.info.desc.1=Du bist dabei, dich zu diesem Wegpunkt zu teleportieren.
+bob.gui.waystone.info.desc.2=Das Teleportieren zu diesem Wegpunkt erfordert §e%1 XP-Level§r.
+bob.gui.waystone.info.desc.3=Wenn Du Dich über Dimensionen hinweg teleportierst, kostet das §e%1 XP-Level§r.
+bob.gui.waystone.info.teleport=Teleportiere Dich zu diesem Wegpunkt
+bob.gui.waystone.info.remove=Entferne diesen Wegpunkt
+
+### Messages
+bob.message.waystone.added=Wegpunkt hinzugefügt!
+bob.message.waystone.removed=Wegpunkt entfernt.
 bob.message.waystone.name=Name: §7%1
 bob.message.waystone.nameGlobal=Name: §p%1
 bob.message.waystone.location=Standort: 
 bob.message.waystone.teleporting=Teleportieren zu §7%1§r...
-bob.message.waystone.zeroWaystones=Keine Wegsteine ​​vorhanden.
-bob.message.waystone.maxWarps=Du hast bereits die maximale Anzahl an Wegsteinen gesetzt!
-bob.message.waystone.maxGlobalWarps=Die maximale Anzahl globaler Wegsteine ​​wurde erreicht!
+bob.message.waystone.zeroWaystones=Keine Wegpunkte vorhanden.
+bob.message.waystone.maxWarps=Du hast bereits die maximale Anzahl an Wegpunkten platziert!
+bob.message.waystone.maxGlobalWarps=Die maximale Anzahl globaler Wegpunkte wurde erreicht!
 
 
-bob.gui.playercorpse.title=Die Leiche abstauben?
-bob.gui.playercorpse.body=Wenn Sie die Leiche abstauben, werden alle darin enthaltenen Gegenstände gelöscht. Um Ihre Gegenstände wiederzugewinnen, öffnen Sie das Inventar der Leiche.
-bob.gui.playercorpse.dust=Entstaube die Leiche
-bob.gui.playercorpse.keep=Behalte es
+## Player Corpse
+bob.gui.playercorpse.title=Die Leiche entfernen?
+bob.gui.playercorpse.body=Wenn die Leiche entfernt wird, werden alle darin enthaltenen Gegenstände gelöscht. Um die Gegenstände vorher zu sichern, öffne das Inventar der Leiche.
+bob.gui.playercorpse.dust=Leiche entfernen
+bob.gui.playercorpse.keep=Leiche behalten
 
 
+## Quests
 bob.message.questUnlocked=Quest freigeschaltet
 bob.message.questComplete=Quest abgeschlossen
 
+## Secret Quests
 bob.quests.secret=Geheime Quests
 bob.quests.secret.toast=Geheimnis?
 bob.quests.secret.toast.desc=Eine Quest wurde freigeschaltet.
+
+### List
 bob.quests.secret.1.name.1=Sternkristalle
 bob.quests.secret.1.desc.1=Reparieren Sie einen kaputten Stellar-Rekord. Vielleicht wäre ein Schmiedetisch hilfreich...
 
@@ -176,20 +222,20 @@ bob.quests.tier.1.desc.5=Holen Sie sich §79x§r Diamanten.
 bob.quests.tier.2=Bergbauzeit
 bob.quests.tier.2.name.1=Händler
 bob.quests.tier.2.desc.1=Tauschen Sie es gegen eine gekaufte Quest bei einem Bibliothekar-Dorfbewohner ein.
-bob.quests.tier.2.name.2=Kopfgeldzeit
-bob.quests.tier.2.desc.2=Holen Sie sich eine Kopfgeldrolle von einem Händler-Außenposten, der überall in der Oberwelt zu finden ist.
+bob.quests.tier.2.name.2=Auftragszeit.
+bob.quests.tier.2.desc.2=Hole Dir eine Auftragsrolle von einem Händler-Außenposten, der überall in der Oberwelt zu finden ist.
 bob.quests.tier.2.name.3=Zaubererhandwerk!
 bob.quests.tier.2.desc.3=Finde eine Flammenrune.
 bob.quests.tier.2.name.4=Reisender
-bob.quests.tier.2.desc.4=Besorge dir einen Wegstein.
+bob.quests.tier.2.desc.4=Besorge Dir einen Wegstein.
 bob.quests.tier.2.name.5=Stäbe und Steine!
-bob.quests.tier.2.desc.5=Kaufen Sie einen Stab von einem einsamen Zauberer.
+bob.quests.tier.2.desc.5=Kaufe einen Stab von einem einsamen Zauberer.
 
 bob.quests.tier.3=Nether erhebt sich
 bob.quests.tier.3.name.1=Tief unten
 bob.quests.tier.3.desc.1=Finde einen Corstinitbarren, der im Nether gefunden wurde.
 bob.quests.tier.3.name.2=Freunde! :3
-bob.quests.tier.3.desc.2=Legen Sie ein Quetzacaw-Ei. Sie können in Truhen in der Nether-Dimension gefunden werden.
+bob.quests.tier.3.desc.2=Lege ein Quetzacaw-Ei. Sie können in Truhen in der Nether-Dimension gefunden werden.
 bob.quests.tier.3.name.3=Geldkrabbe
 bob.quests.tier.3.desc.3=Jage vier Basalträuber. Sie können in Basaltdeltas gefunden werden.
 bob.quests.tier.3.name.4=Abgeschirmter Pyroklast
@@ -199,11 +245,11 @@ bob.quests.tier.3.desc.5=Besiege den verwelkten Samurai.
 
 bob.quests.tier.4=Monsterplünderer
 bob.quests.tier.4.name.1=Zombietöter
-bob.quests.tier.4.desc.1=Holen Sie sich einen halben Stapel (§732x§r) Rotten Flesh.
+bob.quests.tier.4.desc.1=Besorge Dir einen halben Stapel (§732x§r) Rotten Flesh.
 bob.quests.tier.4.name.2=Creeper Hunter
-bob.quests.tier.4.desc.2=Holen Sie sich §716x§r Schießpulver.
+bob.quests.tier.4.desc.2=Besorge Dir §716x§r Schießpulver.
 bob.quests.tier.4.name.3=Schwierige Situation
-bob.quests.tier.4.desc.3=Rufen Sie den §714x§r-String ab.
+bob.quests.tier.4.desc.3=Rufe den §714x§r-String ab.
 bob.quests.tier.4.name.4=Mehr Seelen
 bob.quests.tier.4.desc.4=Erhalte zwei Seelen, indem du Mobs tötest.
 
@@ -285,25 +331,25 @@ bob.quests.bought.desc.12=Erhalte eine Boss-Trophäe.
 bob.quests.bought.name.13=Spektrale Jagd
 bob.quests.bought.desc.13=Erhalten Sie mindestens 69 Pfeile.
 bob.quests.bought.name.14=Verlorene Schriftrolle
-bob.quests.bought.desc.14=Besorgen Sie sich eine Kopfgeldrolle, die Sie auf der Kopfgeldtafel eines Händler-Außenpostens finden.
+bob.quests.bought.desc.14=Besorge Dir eine Auftragsrolle, die Du auf dem Auftrags-Brett eines Händler-Außenpostens findest.
 bob.quests.bought.name.15=Titanenhandschuh
-bob.quests.bought.desc.15=Besorge dir einen Netherstein. Wird normalerweise in Truhen von Blackstone Castle gefunden.
+bob.quests.bought.desc.15=Besorge Dir einen Netherstein. Wird normalerweise in Truhen von Blackstone Castle gefunden.
 bob.quests.bought.name.16=Abgründiges Rätsel
 bob.quests.bought.desc.16=Betreten Sie das Ende.
 
 
-bob.gui.bounty.title=Kopfgelder
-bob.gui.bounty.desc.1=Wählen Sie ein vorhandenes Kopfgeld oder ein neu freigeschaltetes Kopfgeld aus und folgen Sie den Anweisungen.
-bob.gui.bounty.desc.2=Jedes Kopfgeld hat einen Schwierigkeitsgrad, der durch „I, II, III, IV, V“ gekennzeichnet ist.
-bob.gui.bounty.completed=Kopfgeld abgeschlossen! Sie können jetzt Ihre Prämien einfordern.
-bob.message.bounty.complete=Ein Kopfgeld wurde abgeschlossen!
-bob.message.bounty.completedAll=Herzlichen Glückwunsch, Sie haben alle Kopfgelder abgeschlossen!
-bob.message.bounty.alreadyClaimed=Die Belohnungen für dieses Kopfgeld wurden bereits beansprucht.
-bob.message.bounty.locked=Dieses Kopfgeld ist derzeit gesperrt.
-bob.message.bounty.zeroCompleted=Du hast keine abgeschlossenen Kopfgelder, die du beanspruchen kannst.
-bob.message.bounty.claimedAll=Alle Kopfgelder erfolgreich eingefordert!
-bob.message.bounty.accepted=Kopfgeld angenommen!
-bob.message.bounty.alreadyStarted=Du machst bereits ein anderes Kopfgeld!
+bob.gui.bounty.title=Auftrag
+bob.gui.bounty.desc.1=Wähle einen vorhandenen oder einen neu freigeschalteten Auftrag aus und folge den Anweisungen.
+bob.gui.bounty.desc.2=Jeder Auftrag hat einen Schwierigkeitsgrad, der durch „I, II, III, IV, V“ gekennzeichnet ist.
+bob.gui.bounty.completed=Auftrag abgeschlossen! Du kannst jetzt Deine Belohnung abholen.
+bob.message.bounty.complete=Ein Auftrag wurde abgeschlossen!
+bob.message.bounty.completedAll=Herzlichen Glückwunsch, Du hast alle Aufträge abgeschlossen!
+bob.message.bounty.alreadyClaimed=Du hast die Belohnungen für diesen Auftrag bereits bekommen.
+bob.message.bounty.locked=Dieser Auftrag ist derzeit gesperrt.
+bob.message.bounty.zeroCompleted=Du hast keinen abgeschlossenen Auftrag, den du einlösen kannst.
+bob.message.bounty.claimedAll=Alle Auftragsbelohnungen erfolgreich erhalten!
+bob.message.bounty.accepted=Auftrag angenommen!
+bob.message.bounty.alreadyStarted=Du machst bereits einen anderen Auftrag!
 bob.gui.bounty.status.locked=Gesperrt
 bob.gui.bounty.status.open=Offen
 bob.gui.bounty.status.inProgress=Im Gange...
@@ -673,8 +719,8 @@ item.better_on_bedrock.persisting_embodiment.desc.2=Erhalten durch das Töten vo
 item.better_on_bedrock:pink_tulip=Rosa Tulpe
 item.better_on_bedrock:quest=Quest gekauft
 item.better_on_bedrock:quest_paper.name=Aufgerollte Quest-Schriftrolle
-item.better_on_bedrock:quest_scroll_closed.name=Aufgerollte Kopfgeldrolle
-item.better_on_bedrock:quest_scroll_opened.name=Kopfgeldrolle
+item.better_on_bedrock:quest_scroll_closed.name=Aufgerollte Auftragsrolle
+item.better_on_bedrock:quest_scroll_opened.name=Auftragsrolle
 item.better_on_bedrock:quetzacaw_egg.name=Quetzacaw-Ei
 item.better_on_bedrock:quetzacaw_feather.name=Quetzacaw-Feder
 item.better_on_bedrock:rage_potion.name=Trank der Wut
@@ -1143,7 +1189,7 @@ tile.better_on_bedrock:polished_dripstone.name=Polierter Tropfstein
 tile.better_on_bedrock:polished_tuff.name=Polierter Tuffstein
 tile.better_on_bedrock:polsihed_tuff.name=Polierter Tuffstein
 tile.better_on_bedrock:purple_slimeshroom.name=Lila Slimeshroom
-tile.better_on_bedrock:quest_block.name=Kopfgeldbrett
+tile.better_on_bedrock:quest_block.name=Auftrags-Brett
 tile.better_on_bedrock:quetzacaw_egg.name=Quetzacaw-Ei
 tile.better_on_bedrock:quetzacaw_egg_block.name=Quetzacaw-Ei
 tile.better_on_bedrock:rose_pot.name=Hängender Rosentopf
